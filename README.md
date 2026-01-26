@@ -19,6 +19,8 @@ I excel in a range of disciplines, with a strong focus on practical application 
 | **Open Source Intelligence (OSINT)** | <a href="https://github.com/S3V3N11S/OSINT-Writeups">OSINT Writeups</a>                                         |
 | **Network Reconnaissance & Enumeration** | *In Progress* |
 | **Security Information & Event Management (SIEM)** | *In Progress* |
+| **Detection Engineering** | *In Progress* |
+| **Crowdstrike Utilities** | *In Progress* |
 | **Endpoint Security (EDR) & Protection** | <a href="https://github.com/S3V3N11S/Endpoint-Security-Collection">Endpoint Security Collection</a>              |
 | **Web Application Security (OWASP Top 10)** | <a href="https://github.com/S3V3N11S/OWASP-Top-10/blob/main/owasp10Writeup.md">OWASP Top 10 Box</a>             |
 
