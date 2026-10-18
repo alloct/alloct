@@ -1,6 +1,6 @@
 <!-- Banner -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,100:0d1117&height=210&section=header&text=alloct&fontColor=ffffff&fontSize=72&fontAlignY=36&desc=breaking%20things%2C%20then%20documenting%20the%20cleanup&descAlignY=58&descAlign=50&descSize=18" alt="alloct" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,100:0d1117&height=210&section=header&text=alloct&fontColor=ffffff&fontSize=72&fontAlignY=36&desc=breaking%20things&descAlignY=58&descAlign=50&descSize=18" alt="alloct" />
 </div>
 
 <!-- Roles -->
