@@ -1,39 +1,49 @@
 <div align="center">
 
 # alloct
-*Breaking things*
+
+**Breaking things, then documenting the cleanup.**
+
 </div>
 
 ---
 
-## Welcome!
+I work both sides of security: adversary emulation and C2 infrastructure on one end, incident response, threat hunting, and detection engineering on the other. Day to day that runs from small business to enterprise. This page points to the tools I build and the notes I keep as I go.
 
-I'm a security practitioner with hands-on experience across both offensive and defensive operations — from adversary emulation to incident response, threat hunting, and detection engineering. I work across environments ranging from small business to enterprise scale.
+## Tools I build
 
-This portfolio documents my labs, research, tooling, and real-world writeups.
+| Project | What it is | Stack |
+| :------ | :--------- | :---- |
+| [The Privacy Cookbook](https://github.com/alloct/privacy-cookbook) | Privacy and OPSEC knowledge base. Threat models before tools, sourced claims, zero trackers. Live at [theprivacycookbook.com](https://theprivacycookbook.com). | Eleventy · JS |
+| [Trailmark](https://github.com/alloct/trailmark-ti) | Forensic browser-history viewer. Finds and parses history artifacts across a triage image, recovers hot WAL data, defangs every URL in its reports. | Python · Qt |
+| [Aegis](https://github.com/alloct/Win11-Aegis-Optimize) | Windows 10/11 debloat, privacy, and hardening. Every change is journaled and reversible down to a single tweak. | PowerShell |
+| [Aegis Light](https://github.com/alloct/aegis-light-linux) | Idempotent Debian/Ubuntu hardening. `--dry-run` preview and a generated rollback script for every run. | Bash |
+| [Security Posture Reviews](https://github.com/alloct/Security-Posture-Reviews) | MSP assessment tool: scores client posture, ingests Nessus output, and generates reports. | FastAPI |
+| [Job Jacker](https://github.com/alloct/job-jacker) | Watches job boards, filters postings against YAML rules, pushes matches to Discord. | Python |
 
----
+## Writeups & labs
 
-## Skills & Projects
+**Offensive & red team**
+- [C2 Labs](https://github.com/alloct/C2-Labs) — Sliver C2 setup and initial testing
+- [Oops, I Dropped My Artifacts](https://github.com/alloct/Oops-My-Artifacts) — infostealer proof of concept for IR/detection demos
+- [DLL Sideloading Demo](https://github.com/alloct/DLLsideloading-BasicDemo) — identifying and abusing the Windows DLL search order
+- [OWASP Top 10](https://github.com/alloct/OWASP-Top-10) · [CTF Writeups](https://github.com/alloct/Capture-The-Flags)
 
-| Skill | Project |
-| :---- | :------ |
-| **Threat Hunting & Intelligence (CTI)** | [Threat Hunts, CTI & POCs](https://github.com/S3V3N11S/Threat-Intelligence-and-Hunts/tree/main) |
-| **Red Team Operations & C2 Infrastructure** | [C2 Labs & Deployment](https://github.com/S3V3N11S/C2-Labs/blob/main/SliverC2-Initial_Test.md) |
-| **Adversary Emulation** | [Adversary Simulations & IR Demos](https://github.com/S3V3N11S/Oops-My-Artifacts) |
-| **Digital Forensics & Incident Response (DFIR)** | [DFIR Playbooks, Writeups & Cheatsheets](https://github.com/S3V3N11S/DFIR) |
-| **Vulnerability Assessment & Exploitation** | [Vuln Scanning & Patching Collection](https://github.com/S3V3N11S/Vulnerability-Scanning-and-Patching) |
-| **Network Traffic Monitoring & Attack Detection** | [Snort Lab](https://github.com/S3V3N11S/Network-Security-and-Analysis-Collection/blob/main/Snort%20THM.md) |
-| **Open Source Intelligence (OSINT)** | [OSINT Writeups](https://github.com/S3V3N11S/OSINT-Writeups) |
-| **Endpoint Security (EDR)** | [Endpoint Security Collection](https://github.com/S3V3N11S/Endpoint-Security-Collection) |
-| **Web Application Security (OWASP Top 10)** | [OWASP Top 10 Box](https://github.com/S3V3N11S/OWASP-Top-10/blob/main/owasp10Writeup.md) |
-| **SIEM & Detection Engineering** | [SIEM Query Building](https://github.com/alloct/SIEM-Query-Building) |
-| **Network Reconnaissance & Enumeration** | *In Progress* |
-| **CrowdStrike Utilities & RTR** | *In Progress* |
+**Defensive, DFIR & detection**
+- [DFIR](https://github.com/alloct/DFIR) — playbooks and checklists (BEC/M365 triage)
+- [Threat Hunting & Intel](https://github.com/alloct/Threat-Intelligence-and-Hunts) — hunts, IOC work, Splunk intrusion detection
+- [SIEM Query Building](https://github.com/alloct/SIEM-Query-Building) — detection logic and CrowdStrike queries
+- [CrowdStrike Resources](https://github.com/alloct/Crowdstrike) — custom IOA rules and RTR scripts
+- [Endpoint Security](https://github.com/alloct/Endpoint-Security-Collection) · [Cyber Defense Frameworks](https://github.com/alloct/Cyber-Defense-Frameworks) · [Network Analysis & IDS](https://github.com/alloct/Network-Security-and-Analysis-Collection)
 
----
+**OSINT & CTI**
+- [Canadian OSINT Toolbox](https://github.com/alloct/OSINT-Canada) — curated OSINT resources for Canadian investigations
+- [OSINT Writeups](https://github.com/alloct/OSINT-Writeups)
 
-## Tools & Technologies
+**Vulnerability management**
+- [Vulnerability Scanning & Patching](https://github.com/alloct/Vulnerability-Scanning-and-Patching) — Nessus scanner build and tuning
+
+## Tools & technologies
 
 ### 🔴 Offensive Security & Red Teaming
 <div>
@@ -114,19 +124,8 @@ This portfolio documents my labs, research, tooling, and real-world writeups.
 
 ---
 
-## Featured Projects
+<div align="center">
 
-| Project | Description |
-| :------ | :---------- |
-| [CTF Writeups](https://github.com/S3V3N11S/Capture-The-Flags) | Documented solutions and methodologies from Capture the Flag competitions |
-| [Canadian OSINT Toolbox](https://github.com/S3V3N11S/Canadian-OSINT-) | Curated OSINT resources and tooling tailored for Canadian investigations |
-| [Oops, I Dropped My Artifacts](https://github.com/S3V3N11S/Oops-My-Artifacts) | Adversary emulation scenarios with artifact analysis and IR walkthroughs |
-| OpenCTI Platform Deployment | Full deployment and SOC integration of OpenCTI for threat intel operationalization |
-| SOAR Automated Workflows | Automated triage and response playbooks for faster SOC decision-making |
-| RTR Scripts & Custom CS Queries | CrowdStrike Real-Time Response scripts and Falcon SIEM queries for forensic acquisition |
-| Nessus Scanner Deployment | Passive vulnerability scanning setup and tuning for continuous asset coverage |
-| Home Security Lab | Isolated attack/defend lab environment for research, training, and tool testing |
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alloct)
 
----
-## Connect
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/S3V3N11S)
+</div>
